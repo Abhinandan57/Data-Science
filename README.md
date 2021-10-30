@@ -90,12 +90,12 @@ __2. Adding a variable to capture NaN__
 - Whenever you have a situation where you have lot of missing values, try to use this particular technique w.r.t one feature.
 
 ## TECHNIQUES TO HANDLE MISSING VALUES OF CATEGORICAL FEATURES
-__1. One Hot Encoding__
-__2. Ordinal Number Encoding__
-__3. Count or Frequency Encoding__
-__4. Target Guided Ordinal Encoding__
-__5. Mean Encoding__
-__6. Probability Ratio Encoding__
+__1. One Hot Encoding__  
+__2. Ordinal Number Encoding__  
+__3. Count or Frequency Encoding__  
+__4. Target Guided Ordinal Encoding__  
+__5. Mean Encoding__  
+__6. Probability Ratio Encoding__  
 
 # Feature Transformation
 ## Why transformation of features are required?

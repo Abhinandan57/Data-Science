@@ -18,7 +18,7 @@ __Missing Data Not At Random (MNAR) (Systematic missing values) :__ When data is
 
 ## TECHNIQUES TO HANDLE MISSING VALUES OF CONTINUOUS FEATURES:
 __1. Mean/Median/Mode imputation__
-When to apply this technique? Mean/Median imputation has the assumption that the data are missing completely at random (MCAR). We solve this by replacing the NaN with the most frequent occurance of the variable.
+- When to apply this technique? Mean/Median imputation has the assumption that the data are missing completely at random (MCAR). We solve this by replacing the NaN with the most frequent occurance of the variable.
 
 __Advantages of Mean/Median Imputaion:__  
 - Easy to implement (Robust to outliers)
@@ -30,8 +30,7 @@ __Disadvantages of Mean/Median Imputation:__
 
 __2. Random Sample imputation__
 - This technique consists of taking random observation from the dataset and we use this observation to replace the NaN values.
-
-When to use this technique? It assumes that the data are missing completely at random (MCAR). So in cases of MCAR, we will be using this technique.
+- When to use this technique? It assumes that the data are missing completely at random (MCAR). So in cases of MCAR, we will be using this technique.
 
 __Advantages of Random Sample Imputation :__  
 - Easy to implement
@@ -41,7 +40,7 @@ __Disadvantage of Random Sample Imputation :__
 - In every situation, randomness will not work
 
 __3. Capturing NaN values with a new feature__
-When to use this technique? It works well if the data are not missing completely at random (MNAR).
+- When to use this technique? It works well if the data are not missing completely at random (MNAR).
 
 __Advantages of Capturing NaN values with a new feature :__  
 - Easy to implement
